@@ -4,6 +4,7 @@ import argparse
 
 
 def test_time_cli(args):
+    print(args.origin_model_path, args.convert_model_path)
     yolo_predict_cli = YOLOPredictTimeCLI()
     yolo_predict_cli.run(args.origin_model_path, args.convert_model_path)
 

@@ -5,7 +5,7 @@ import argparse
 
 
 def test_eye_tracking_cli(args):
-    img_folder_path = os.path.join("datasets", "image", "eye_tracking")
+    img_folder_path = args.label_path
     mp_iris_tracking = MPIrisArea()
     mp_iris_tracking.valid_with_image(
         img_folder_path=img_folder_path, visible_save=args.visible_save
@@ -21,6 +21,13 @@ if __name__ == "__main__":
         help="Tracking img save option",
         default=False,
         type=bool,
+    )
+    parser.add_argument(
+        "--label_path",
+        required=False,
+        help="Tracking img save option",
+        default=os.path.join("datasets", "image", "eye_tracking"),
+        type=str,
     )
 
     args = parser.parse_args()

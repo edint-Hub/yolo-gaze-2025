@@ -66,8 +66,13 @@ python main_time_valid.py
 
 ## 🪪 License
 
-- This project uses components under the AGPL 3.0 (Affero General Public License 3.0).
-- AGPL 3.0 is a strong copyleft license and includes the following key requirements:
+- This project uses components under the **AGPL 3.0 (Affero General Public License 3.0).**
+``` 
+You may copy, modify, and distribute this software, but any networked service using this software must also make its source code available under the same license.
+```
+
+For more details, see the [LICENSE](./LICENSE) file.
+
 
 **✔ Key Points**
 

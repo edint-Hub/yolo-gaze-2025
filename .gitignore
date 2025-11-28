@@ -177,3 +177,6 @@ pyrightconfig.json
 
 # DataSets
 /datasets
+
+# un-tracking
+__*

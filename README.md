@@ -64,27 +64,6 @@ python main_time_valid.py
 ```
 
 
-## 🧪 테스트
-
-**1. Eye-Tracking CLI 모드 실행.**   
-
-```bash
-python test_eye_tracking.py --visible_save True
-```
-
-**2. Model Size Valid CLI 모드 실행.**   
-
-```bash
-python test_size_valid.py --origin_model_path "/model/path/model.pt" --convert_model_path "/model/path/convert_model.pt"
-```
-
-**3. Model Predict Speed Valid CLI 모드 실행.**   
-
-```bash
-python test_time_valid.py --origin_model_path "/model/path/model.pt" --convert_model_path "/model/path/convert_model.pt"
-```
-
-
 ## 🪪 License
 
 - This project uses components under the AGPL 3.0 (Affero General Public License 3.0).
